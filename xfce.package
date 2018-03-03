@@ -1,0 +1,3 @@
+xorg xfce firefox gvfs gvfs-afc thunar-volman udisks2 gvfs-smb gvfs-gphoto2 gvfs-mtp gvfs-google synapse
+lightdm lightdm-gtk-greeter
+wicd wicd-gtk xfce4-notifyd python2-notify
