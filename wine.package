@@ -1,0 +1,22 @@
+wine wine_gecko wine-mono lib32-libpulse
+
+    lib32-giflib
+    lib32-libldap
+    lib32-gnutls
+    mpg123
+    lib32-mpg123
+    lib32-openal
+    lib32-v4l-utils
+    alsa-plugins
+    lib32-alsa-plugins
+    lib32-alsa-lib
+    lib32-libxcomposite
+    lib32-libxinerama
+    opencl-icd-loader
+    lib32-opencl-icd-loader
+    lib32-libxslt
+    lib32-gst-plugins-base-libs
+    cups
+    samba
+    dosbox
+

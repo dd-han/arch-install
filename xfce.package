@@ -1,3 +1,4 @@
-xorg xfce firefox gvfs gvfs-afc thunar-volman udisks2 gvfs-smb gvfs-gphoto2 gvfs-mtp gvfs-google synapse arc-gtk-theme arc-icon-theme
+xorg xfce xfce4-screenshooter ristretto firefox gvfs gvfs-afc thunar-volman udisks2 gvfs-smb gvfs-gphoto2 gvfs-mtp gvfs-google synapse arc-gtk-theme arc-icon-theme light-locker
+pulseaudio pulseaudio-alsa pavucontrol xfce4-pulseaudio-plugin
 lightdm lightdm-gtk-greeter
 wicd wicd-gtk xfce4-notifyd python2-notify
