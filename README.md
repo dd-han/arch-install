@@ -4,6 +4,8 @@
 
 重複一次，這是自用的，請依照你的需求調整
 
+安裝 wine 記得要去 `/etc/pacman.conf` 啟用 `multilib`
+
 ## 幾個不是套件的檔案
 
 `01-coding.conf` 是字體的設定檔，強制將系統等寬字改成特定字體，需複製到 `/etc/fonts/conf.avail/` 並在 `/etc/fonts/conf.d/` 建立 Softlink
