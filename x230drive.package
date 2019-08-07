@@ -1,0 +1,7 @@
+# ref: https://wiki.archlinux.org/index.php/Intel_graphics
+# ref: https://wiki.archlinux.org/index.php/Hardware_video_acceleration
+# ref: https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X230
+mesa lib32-mesa xf86-video-intel vulkan-intel libva-intel-driver libva-vdpau-driver libva-utils vdpauinfo  gstreamer-vaapi
+
+# for chrome
+libva-vdpau-driver-chromium
