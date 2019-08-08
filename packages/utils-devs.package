@@ -1,0 +1,6 @@
+docker
+mariadb-clients
+socat
+sqlitebrowser
+linux-headers
+virtualbox

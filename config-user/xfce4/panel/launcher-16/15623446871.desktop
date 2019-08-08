@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Settings Manager
+Name[zh_TW]=設定值管理員
+Comment=Graphical Settings Manager for Xfce 4
+Comment[zh_TW]=Xfce 4 的圖形設定值管理員
+Exec=xfce4-settings-manager
+Icon=preferences-desktop
+Terminal=false
+Type=Application
+Categories=X-XFCE;Settings;DesktopSettings;
+OnlyShowIn=XFCE;
+X-XfceSettingsManagerHidden=true
+X-XFCE-Source=file:///usr/share/applications/xfce-settings-manager.desktop

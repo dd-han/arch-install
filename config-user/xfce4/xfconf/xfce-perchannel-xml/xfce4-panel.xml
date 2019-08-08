@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="17"/>
+        <value type="int" value="3"/>
+        <value type="int" value="15"/>
+        <value type="int" value="4"/>
+        <value type="int" value="16"/>
+        <value type="int" value="5"/>
+        <value type="int" value="20"/>
+        <value type="int" value="6"/>
+        <value type="int" value="2"/>
+        <value type="int" value="19"/>
+      </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-2" type="string" value="actions"/>
+    <property name="plugin-3" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="true"/>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-5" type="string" value="clock">
+      <property name="digital-format" type="string" value="%m/%d %H:%M"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="工作管理員"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="deadbeef"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="networkmanager 面板程式"/>
+        <value type="string" value="synapse"/>
+        <value type="string" value="gcin"/>
+        <value type="string" value="hime"/>
+        <value type="string" value="guake"/>
+        <value type="string" value="wicd-client.py"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15623446871.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15651959411.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="showdesktop"/>
+    <property name="plugin-20" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chrome.instance1010;chrome.instance1030;chrome.instance1085;chrome.instance1107;chrome.instance1347;chrome.instance1572;chrome.instance1899;chrome.instance7320;chrome.instance7894;chromium.instance25362;chromium.instance2720;chromium.instance7103;chromium.instance8282"/>
+    </property>
+  </property>
+</channel>

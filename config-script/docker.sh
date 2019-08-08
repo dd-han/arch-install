@@ -1,0 +1,1 @@
+gpasswd -a $USERNAME docker

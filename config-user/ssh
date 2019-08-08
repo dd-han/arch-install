@@ -1,0 +1,8 @@
+## public Service
+Host ptt
+Hostname	ptt.cc
+User bbsu
+
+host github.com
+Hostname github.com
+IdentityFile ~/.ssh/github

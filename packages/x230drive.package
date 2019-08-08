@@ -1,0 +1,8 @@
+intel-ucode
+mesa
+lib32-mesa
+xf86-video-intel
+vulkan-intel
+libva-intel-driver
+libva-utils
+gstreamer-vaapi

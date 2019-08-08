@@ -1,0 +1,8 @@
+source $HOME/.profile
+
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+export XMODIFIERS=@im=gcin
+export GTK_IM_MODULE="gcin"
+export QT_IM_MODULE="gcin"
+gcin &
