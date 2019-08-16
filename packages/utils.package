@@ -10,3 +10,5 @@ wget
 traceroute
 tree
 zsh
+nmap
+dnsutils
