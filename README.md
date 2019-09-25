@@ -22,7 +22,9 @@ x230-install.sh
 
 ### 檔案系統
 
-`btrfs` 空間快滿時整個系統會很不穩定，但是 Copy-on-write 真的爽。
+`btrfs` 空間快滿時整個系統會很不穩定，但是 Copy-on-write 真的爽。除非你想施展爆裂魔法不然不推薦。
+
+`F2FS` 目前放在 Intel 730 SSD 上用一陣子了， [ArchWiki](https://wiki.archlinux.org/index.php/F2FS) 上的已知問題是系統核心更新後會強制跑 `fsck` 卡開機，但目前升級幾次 `fsck` 沒有跑超過 3 分鐘（環境：Intel 730 480G on X230 分割區 70GB 資料量約 40GB）。
 
 `zfs` 下次想試試看，畢竟 Copy-on-write 。
 
