@@ -20,11 +20,13 @@ x230-install.sh
 
 目前 `grub` 安裝程式只考慮 UEFI 開機模式下， ESP 直接掛在 `/boot` 的情境。
 
+`legacy` 模式請用 MBR 或 GPT 並[建立 BIOS boot partition](https://wiki.archlinux.org/index.php/GRUB#GUID_Partition_Table_%28GPT%29_specific_instructions)
+
 ### 檔案系統
 
 `btrfs` 空間快滿時整個系統會很不穩定，但是 Copy-on-write 真的爽。除非你想施展爆裂魔法不然不推薦。
 
-`F2FS` 目前放在 Intel 730 SSD 上用一陣子了， [ArchWiki](https://wiki.archlinux.org/index.php/F2FS) 上的已知問題是系統核心更新後會強制跑 `fsck` 卡開機，但目前升級幾次 `fsck` 沒有跑超過 3 分鐘（環境：Intel 730 480G on X230 分割區 70GB 資料量約 40GB）。
+`F2FS` 目前放在 Intel 730 SSD 上用一陣子了， [ArchWiki](https://wiki.archlinux.org/index.php/F2FS) 上的已知問題是系統核心更新後會強制跑 `fsck` 卡開機，但目前升級幾次 `fsck` 沒有跑超過 3 分鐘（環境：Intel 730 480G on X230 分割區 70GB 資料量約 40GB），須另外安裝 `f2fs-tools` 確保有工具 fsck 。
 
 `zfs` 下次想試試看，畢竟 Copy-on-write 。
 
@@ -67,6 +69,12 @@ VA-API 可以透過下面套件提供 VDPAU 介面並確認狀態，但不知道
 ```
 libva-vdpau-driver
 vdpauinfo
+```
+
+另外， AMD R9 280 是 Southern Islands 而非 Sea Islands ，以下是 lspci 輸出：
+```
+01:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Tahiti PRO [Radeon HD 7950/8950 OEM / R9 280]
+01:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Tahiti HDMI Audio [Radeon HD 7870 XT / 7950/7970]
 ```
 
 ### 字體
