@@ -8,8 +8,8 @@ config () {
 
     export USERNAME
     export HOSTNAME
-    export USERPASSWORD
     export ROOTPASSWORD
+    export USERPASSWORD
     export EMAIL
 }
 
@@ -37,7 +37,8 @@ systemchroot () {
     config-script/network.sh
     echo -e "$ROOTPASSWORD\n$ROOTPASSWORD\n" | passwd
 
-    useradd -m -s /bin/zsh -p "$USERPASSWORD" "$USERNAME"
+    useradd -m -s /bin/zsh "$USERNAME"
+    echo -e "$USERPASSWORD\n$USERPASSWORD\n" | passwd "$USERNAME"
     config-script/quick-sudo.sh
 
     config-script/multilib.sh
