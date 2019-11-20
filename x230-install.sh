@@ -48,7 +48,8 @@ systemchroot () {
     pacman -S --needed - --noconfirm < packages/utils.package
     pacman -S --needed - --noconfirm < packages/xfce.package
     config-script/xfce.sh
-    cp config-system/10-libinput.conf /etc/X11/xorg.conf.d
+    cp config-system/10-libinput.conf /etc/X11/xorg.conf.d/
+    cp config-system/10-thinkpad.conf /etc/X11/xorg.conf.d/
     pacman -S --needed - --noconfirm < packages/utils-devs.package
     config-script/docker.sh
     pacman -S --needed - --noconfirm < packages/utils-gui.package
