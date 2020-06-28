@@ -1,13 +1,6 @@
-guake
 gvim
-gparted
-gsmartcontrol
-leafpad
-pinta
-synapse
 xdotool
 
-xarchiver
 i7z
 
 remmina
@@ -16,3 +9,19 @@ libvncserver
 
 libreoffice-fresh-zh-tw
 cups-pdf
+yubioath-desktop
+
+gvfs
+gvfs-afc
+gvfs-smb
+gvfs-gphoto2
+gvfs-mtp
+gvfs-google
+udisks2
+samba
+
+pulseaudio
+pulseaudio-alsa
+
+firefox
+firefox-i18n-zh-tw

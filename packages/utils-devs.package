@@ -2,5 +2,5 @@ docker
 mariadb-clients
 socat
 sqlitebrowser
-linux-headers
+linux-zen-headers
 virtualbox

@@ -8,25 +8,12 @@ lightdm
 lightdm-gtk-greeter
 light-locker
 
-gvfs
-gvfs-afc
-gvfs-smb
-gvfs-gphoto2
-gvfs-mtp
-gvfs-google
-udisks2
-samba
-
 arc-gtk-theme
 arc-icon-theme
 
-pulseaudio
-pulseaudio-alsa
 pavucontrol
 xfce4-pulseaudio-plugin
 
-
 ristretto
-firefox
 
 network-manager-applet

@@ -1,0 +1,8 @@
+dhclient
+dhcpcd
+wget
+iputils
+traceroute
+nmap
+dnsutils
+networkmanager
